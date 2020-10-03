@@ -1,0 +1,8 @@
+post http://localhost:3001/email
+Content-Type: application/json
+
+{
+    "name":"Nguyen Do Cuong",
+    "phone":"098283934",
+    "email":"nguyendocuongbka@gmail.com"
+}
