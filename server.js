@@ -21,8 +21,8 @@ app.post('/email', (req, res) => {
     });
 
     var mailOptions = {
-        from: 'nguyendocuongbka@gmail.com',
-        to: 'nguyendocuongbka@gmail.com',
+        from: process.env.GMAIL,
+        to: process.env.GMAIL,
         subject: 'THÔNG TIN ĐƠN HÀNG',
         text: JSON.stringify(req.body)
     };
