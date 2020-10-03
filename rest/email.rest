@@ -2,7 +2,7 @@ post  https://jscserveremail.herokuapp.com/email
 Content-Type: application/json
 
 {
-    "name":"Vu Lan Anh",
+    "name":"Vu Lanh anh",
     "phone":"098283934",
     "email":"nguyendocuongbka@gmail.com"
 }
