@@ -35,7 +35,7 @@ app.post('/email', (req, res) => {
         }
     });
 
-    res.status(200).json({ success: true })
+    res.status(200).json(req.body)
 })
 
 const PORT = process.env.PORT || 3001
